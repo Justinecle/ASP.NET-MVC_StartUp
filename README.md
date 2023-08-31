@@ -1,4 +1,4 @@
-<h1>Start Up</h1>
+<h1>Startup Web Application</h1>
 
  ### [Google Drive Execution](https://drive.google.com/file/d/1FrWSCsXmQFsZLlUfvZKbobLt2872Vecf/view)
 
@@ -15,32 +15,32 @@ This project is a web application using ASP.NET MVC for a startup. This applicat
 
 <h2>Environments Used </h2>
 
-- <b>Windows 10</b> (21H2)
-- <b>VS Code</b> (21H2)
+- <b>Windows 11</b> (21H2)
+- <b>Visual Studio</b> (21H2)
 
 <h2>Program walk-through:</h2>
 
 <p align="center">
 Launch the program: <br/>
-<img src="https://i.imgur.com/0alrtHd.png" height="80%" width="80%" alt="npm run start"/>
+<img src="https://imgur.com/Wghp2bM.png" height="80%" width="80%" alt="npm run start"/>
 <br />
 <br />
-Upload a video:  <br/>
-<img src="https://i.imgur.com/4PC99o3.png" height="80%" width="80%" alt="upload"/>
+Home Page:  <br/>
+<img src="https://imgur.com/H2rru7Z.png" height="80%" width="80%" alt="upload"/>
 <br />
 <br />
-Stream a video: <br/>
-<img src="https://i.imgur.com/p0w8GGE.png" height="80%" width="80%" alt="stream"/>
+Team Page: <br/>
+<img src="https://imgur.com/yjWIqxK.png" height="80%" width="80%" alt="stream"/>
 <br />
 <br />
-Search a video:  <br/>
-<img src="https://i.imgur.com/qUKAfWK.png" height="80%" width="80%" alt="search"/>
+Services Page:  <br/>
+<img src="https://imgur.com/YEtKely.png" height="80%" width="80%" alt="search"/>
 <br />
 <br />
-Login:  <br/>
-<img src="https://i.imgur.com/seOZwBb.png" height="80%" width="80%" alt="login"/>
+Contact Page with validations:  <br/>
+<img src="https://imgur.com/Vb1hk1D.png" height="80%" width="80%" alt="login"/>
 <br />
 <br />
-About:  <br/>
-<img src="https://i.imgur.com/QJJyRF7.png" height="80%" width="80%" alt="about"/>
+Confirmation Page after validation:  <br/>
+<img src="https://imgur.com/vvR6Mqg.png" height="80%" width="80%" alt="about"/>
 </p>
