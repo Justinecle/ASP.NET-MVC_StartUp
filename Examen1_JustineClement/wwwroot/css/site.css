@@ -1,0 +1,168 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+    margin-bottom: 150px;
+    font-variant: small-caps;
+}
+
+/* Style personnalisé pour le header */
+.custom-header {
+    background-color: dimgrey;
+    color: white;
+    padding: 20px;
+}
+
+/* Style personnalisé pour le footer */
+.custom-footer {
+    background-color: dimgrey;
+    color: white;
+    padding: 30px;
+    text-align: center;
+}
+
+/* Style personnalisé pour les liens de navigation */
+.custom-nav-link {
+    color: white;
+    text-decoration: none;
+    border-radius: 20px;
+    padding: 5px 10px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+    .custom-nav-link:hover {
+        background-color: white;
+        color: black;
+    }
+
+/* Style pour le logo */
+.logo-img {
+    width: 50px; 
+    height: auto;
+    padding-right: 10px;
+}
+
+/* Style pour le formulaire */
+form {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 30px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    margin-bottom: 30px;
+}
+
+/* Style pour les étiquettes du formulaire */
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+/* Style pour les champs de saisie */
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 18px;
+}
+
+/* Style pour les messages d'erreur */
+.field-validation-error {
+    color: red;
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+/* Style pour le bouton d'envoi */
+input[type="submit"] {
+    background-color: #900300;
+    color: #fff;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+/* Style pour le bouton d'envoi au survol */
+input[type="submit"]:hover {
+background-color: #800000;
+}
+
+/* Style pour les p de la page Equipe */
+.name {
+    color: #900300;
+}
+.role {
+    font-weight: bold;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.employee {
+    display: inline-block;
+    margin: 20px;
+    text-align: center;
+}
+
+.employee img {
+    width: 150px; 
+    height: 200px;
+}
+
+.name, .role {
+    margin: 10px 0;
+}
+
+/* Style le body de la page Services */
+.services-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: left;
+}
+
+.service-box {
+    background-color: rgba(200, 200, 200, 0.5);
+    padding: 20px;
+    margin: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    max-width: 60%;
+    align-self: center;
+}
+
+.service-description {
+    color: #900300; /* Couleur de la description */
+    font-weight: bold;
+}
+
+.serviceai-text {
+    color: #900300; /* Couleur du ServiceAi de la page Accueil */
+    font-weight: bold;
+}

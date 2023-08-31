@@ -1,0 +1,18 @@
+﻿@{
+    ViewData["Title"] = "Nos Services en Intelligence Artificielle";
+}
+
+<h2 class="text-center">@ViewData["Title"]</h2>
+<br>
+<br>
+
+<div class="services-container">
+    @foreach (var service in Model)
+    {
+        <div class="service-box">
+            <h2>@service.Name</h2>
+            <p>Type: @service.Type</p>
+            <p class="service-description">Description: @service.Description</p>
+        </div>
+    }
+</div>

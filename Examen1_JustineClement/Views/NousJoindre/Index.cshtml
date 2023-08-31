@@ -1,0 +1,39 @@
+﻿
+@model Examen1_JustineClement.Models.NousJoindreModel
+
+@{
+	ViewBag.Title = "Nous Joindre";
+}
+
+<h2 style="text-align: center">@ViewBag.Title</h2>
+
+<p style="text-align: center">Pous nous contacter, veuillez remplir les informations ci-dessous :</p>
+
+@using (Html.BeginForm("Index", "NousJoindre", FormMethod.Post))
+{
+	<div>
+		<label for="Nom">Name :</label>
+		@Html.TextBoxFor(model => model.Nom, new { placeholder = "Votre nom" })
+		@Html.ValidationMessageFor(model => model.Nom)
+	</div>
+
+	<div>
+		<label for="Email">Email :</label>
+		@Html.TextBoxFor(model => model.Email, new { placeholder = "Votre adresse email" })
+		@Html.ValidationMessageFor(model => model.Email)
+	</div>
+
+	<div>
+		<label for="Telephone">Téléphone :</label>
+		@Html.TextBoxFor(model => model.Telephone, new { placeholder = "Votre numéro de téléphone" })
+		@Html.ValidationMessageFor(model => model.Telephone)
+	</div>
+
+	<div>
+		<label for="Message">Message :</label>
+		@Html.TextAreaFor(model => model.Message, new { placeholder = "Votre message" })
+		@Html.ValidationMessageFor(model => model.Message)
+	</div>
+
+	<input type="submit" value="Envoyer" />
+}
